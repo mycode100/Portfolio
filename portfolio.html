@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mopuru Venkata Srikanth Reddy Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Home Section -->
+        <section id="home">
+            <div class="home-container">
+                <div class="left-side">
+                    <div class="photo-container">
+                        <img src="new phto.jpg" alt="Your Photo">
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <h1>Hi, This is Mopuru Venkata Srikanth Reddy</h1>
+                    <h2 class="typing-animation">
+                        <span class="job-title"></span>
+                    </h2>
+                    <p class="bio">Aspiring Full Stack & Backend Developer | Database Enthusiast | Prompt Engineering Enthusiast</p>
+                    <p class="description">
+                        I’m currently diving deep into full stack and backend development, with a focus on mastering
+                        server-side technologies, databases, and cloud services. Passionate about building efficient, scalable
+                        applications and continuously learning new tools and frameworks. Alongside coding, I enjoy experimenting with
+                        prompt engineering to enhance AI interactions.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://github.com/mycode100" target="_blank">
+                            <img src="git.png" alt="GitHub" class="icon">
+                        </a>
+                        <a href="https://www.linkedin.com/in/mopuru-venkata-srikanth-reddy-3010b4267/" target="_blank">
+                            <img src="linked.avif" alt="LinkedIn" class="icon">
+                        </a>
+                        <a href="mailto:mvsr26032005@gmail.com">
+                            <img src="mail.jpg" alt="Mail" class="icon">
+                        </a>
+                    </div>
+                    <div class="resume-container">
+                        <a href="https://docs.google.com/document/d/19rHNb-CQiJ3oaM-Nf8dnUlSmCLIfqeBQ/export?format=pdf"
+                            class="resume-button" download>Download My Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section id="about">
+            <h1 class="about-heading">About</h1>
+            <div class="about-container">
+                <nav class="sidebar">
+                    <ul>
+                        <li><a href="#" data-content="bio">Bio</a></li>
+                        <li><a href="#" data-content="education">Education</a></li>
+                        <li><a href="#" data-content="experience">Experience</a></li>
+                        <li><a href="#" data-content="certificates">Certificates</a></li>
+                    </ul>
+                </nav>
+                <div class="content">
+                    <div id="bio" class="content-section active" style="background-color: #000; color: #fff; padding: 20px; border-radius: 8px; font-family: 'Arial', sans-serif;">
+                        <h2 style="color: white; border-bottom: 2px solid #f0db4f; padding-bottom: 10px;">Bio</h2>
+                        <p style="font-size: 1.2em; margin-bottom: 15px;">
+                            My name is <strong style="color: #61dafb;">Mopuru Venkata Srikanth Reddy</strong>, and I am an aspiring <strong style="color: #61dafb;">FULL STACK DEVELOPER,UI & UX GRAPHIC DESIGNER AND PROMT ENGINEER</strong>.
+                        </p>
+                        <p style="font-size: 1.1em; margin-bottom: 20px;">Here are some key points about me:</p>
+                        <ul style="list-style-type: none; padding-left: 0;">
+                            <li><strong style="color: #f0db4f;">Technical Skills:</strong>
+                                <ul style="list-style-type: disc; margin-left: 20px;">
+                                    <li>Proficient in <strong style="color: #f0db4f;">JavaScript</strong>.</li>
+                                    <li>Familiar with <strong style="color: #61dafb;">Node.js</strong>, <strong style="color: #61dafb;">React</strong>, and <strong style="color: #61dafb;">Express.js</strong>.</li>
+                                    <li>Knowledge of <strong style="color: #61dafb;">MongoDB</strong> and <strong style="color: #61dafb;">SQL</strong> for database management.</li>
+                                </ul>
+                            </li>
+                            <li><strong style="color: #f0db4f;">Interests:</strong>
+                                <ul style="list-style-type: disc; margin-left: 20px;">
+                                    <li>Passionate about <strong style="color: #61dafb;">AI</strong> and <strong style="color: #61dafb;">prompt engineering</strong>.</li>
+                                    <li>Enjoy solving coding challenges and participating in hackathons.</li>
+                                    <li>Love reading about the latest trends in technology.</li>
+                                </ul>
+                            </li>
+                            <li><strong style="color: #f0db4f;">Professional Goals:</strong>
+                                <ul style="list-style-type: disc; margin-left: 20px;">
+                                    <li>Aiming to build scalable web applications.</li>
+                                    <li>Desire to work on projects that have a meaningful impact on society.</li>
+                                    <li>Committed to continuous learning and personal growth in technology.</li>
+                                </ul>
+                            </li>
+                            <li><strong style="color: #f0db4f;">Collaboration:</strong>
+                                <ul style="list-style-type: disc; margin-left: 20px;">
+                                    <li>Thrive in team environments and value knowledge sharing.</li>
+                                    <li>Seek out opportunities to learn from others while contributing ideas.</li>
+                                </ul>
+                            </li>
+                            <li><strong style="color: #f0db4f;">Vision:</strong>
+                                <ul style="list-style-type: disc; margin-left: 20px;">
+                                    <li>Believe technology should serve a purpose beyond profit.</li>
+                                    <li>Excited about the future of technology and its possibilities.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div id="education" class="content-section">
+                        <h2>Education</h2>
+                        <div class="card-container">
+                            <div class="card" onclick="window.location='https://vitap.ac.in/'">
+                                <img src="./vit.webp" alt="College" class="card-image">
+                                <div class="card-info">
+                                    <h3>VELLORE INSTITUTE OF TECHNOLOGY, AP</h3>
+                                    <div class="card-icon">
+                                        <img src="./gd.jpg" alt="Graduation" class="icon"> 2026
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" onclick="window.location='https://maps.app.goo.gl/UVzdEzJq21gvKxr39'">
+                                <img src="./nc.jpg" alt="Graduation" class="card-image">
+                                <div class="card-info">
+                                    <h3>NARAYANA JUNIOR COLLEGE, BHAVANIPURAM</h3>
+                                    <div class="card-icon">
+                                        <img src="./gd.jpg" alt="Graduation" class="icon"> 2022
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card" onclick="window.location='https://maps.app.goo.gl/MkGKPNykV6YuN9hRA'">
+                                <img src="./nc.jpg" alt="School" class="card-image">
+                                <div class="card-info">
+                                    <h3>NARAYANA GROUP OF HIGH SCHOOL, GOLLAPUDI</h3>
+                                    <div class="card-icon">
+                                        <img src="./gd.jpg" alt="Graduation" class="icon"> 2020
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="experience" class="content-section">
+                        <h2>Experience</h2>
+                        <div class="card-container">
+                            <div class="card" onclick="window.location='your-internship-link.com'">
+                                <img src="./ethnus.png" alt="Internship" class="card-image">
+                                <div class="card-info">
+                                    <h3>MERN FULL STACK DEVELOPMENT CERTIFICATION PROGRAM (VIRTUAL)</h3>
+                                    <p>Role: Intern</p>
+                                    <button onclick="window.open('https://codemithra.com/', '_blank');">More Info</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="certificates" class="content-section">
+                        <h2>Certificates</h2>
+                        <div class="card-container">
+                            <div class="card">
+                                <img src="./mern.png" alt="Certificate" class="card-image">
+                                <div class="card-info">
+                                    <h3>MERN Stack Certification</h3>
+                                    <button
+                                        onclick="window.open('https://drive.google.com/file/d/1ar-VuxP75Wfbn7CbrBjEMTfimjUt02xH/view?usp=sharing', '_blank');">Download</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./cisco.png" alt="Certificate" class="card-image">
+                                <div class="card-info">
+                                    <h3>JavaScript Essentials 1</h3>
+                                    <button
+                                        onclick="window.open('https://drive.google.com/file/d/1y38UPcbvFBkygeMcOlxRznFJyUMVWbqM/view?usp=sharing', '_blank');">Download</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./csi.jpg" alt="Certificate" class="card-image">
+                                <div class="card-info">
+                                    <h3>CSI Web Development</h3>
+                                    <button
+                                        onclick="window.open('https://drive.google.com/file/d/1tOXTNJx4eleGnsM1j9Izx2Ar9pO3eDka/view?usp=sharing', '_blank');">Download</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./bharat.jpg" alt="Certificate" class="card-image">
+                                <div class="card-info">
+                                    <h3>Bhart Web Development</h3>
+                                    <button
+                                        onclick="window.open('https://drive.google.com/file/d/1PnsbGIqG2U7NNtf13yu996soaULEjPoW/view?usp=sharing', '_blank');">Download</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h1 class="about-heading">Projects</h1>
+            <div class="projects-container"> <!-- Main big container -->
+                <!-- Smart Car Parking -->
+                <div class="proj-card">
+                    <img src="./smpark.jpg" alt="Smart Car Parking" class="proj-image">
+                    <div class="proj-content">
+                        <h3>Smart Car Parking System</h3>
+                        <p>Worked with a team of 4 to develop a Smart Vehicle Parking System using Raspberry Pi.</p>
+                        <p>Integrated a display to show available parking slots at the entrance gate, reducing parking search time by 40%.</p>
+                        <div class="proj-buttons">
+                            <a href="https://github.com/mycode100/Smart-parking-system-using-raspbery-pi" class="proj-btn">Know More</a>
+                            <a href="https://drive.google.com/file/d/1ZiCLYVh47UkPW9M1PDEX8Fmzl0Zyygll/view?usp=sharing" class="proj-btn">Website</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Pet Care and Pet Adoption Website -->
+                <div class="proj-card">
+                    <img src="./pet.png" alt="Pet Care and Adoption Website" class="proj-image">
+                    <div class="proj-content">
+                        <h3>Pet Care and Adoption Website</h3>
+                        <p>Led a team of 4 to develop a full-stack Pet Care and adoption platform using React and Node.js.</p>
+                        <p>Integrated customer buying, contact service, and implemented user authentication and authorization, enhancing security by 25%.</p>
+                        <p>Deployed the application using Render and Vercel websites, achieving 99.9% uptime.</p>
+                        <div class="proj-buttons">
+                            <a href="https://github.com/mycode100/pet-care-website-frontend" class="proj-btn">Know More</a>
+                            <a href="https://pet-care-website-frontend.vercel.app/" class="proj-btn">Website</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- User Friendly Banking Application -->
+                <div class="proj-card">
+                    <img src="./bank.png" alt="User Friendly Banking Application" class="proj-image">
+                    <div class="proj-content">
+                        <h3>User Friendly Banking Application</h3>
+                        <p>Provided authentication from Firebase for securely saving user data.</p>
+                        <p>Implemented a money tracking feature to monitor user finances efficiently.</p>
+                        <p>Designed an intuitive user interface to enhance the overall user experience.</p>
+                        <p>Utilized real-time database capabilities for instant updates and tracking.</p>
+                        <div class="proj-buttons">
+                            <a href="https://github.com/mycode100/Bank-Apl-with-Front-and-Backend" class="proj-btn">Know More</a>
+                            <a href="https://bank-apl-with-front-and-backend.vercel.app/" class="proj-btn">Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <div id="skills_bg">
+                <br>
+                <h1 class="about-heading">Skills</h1>
+                <br>
+                <div class="skills-container">
+                    <div class="skills-category">
+                        <h3>Programming Languages / Technologies</h3>
+                        <ul class="skills-list">
+                            <li><img src="./java.jpg" alt="Java Icon" class="skill-icon"> Java</li>
+                            <li><img src="./dsa.webp" alt="DSA Icon" class="skill-icon"> DSA</li>
+                            <li><img src="./js.png" alt="JavaScript Icon" class="skill-icon"> JavaScript</li>
+                            <li><img src="./api.png" alt="RESTful APIs Icon" class="skill-icon"> RESTful APIs</li>
+                            <li><img src="./react.png" alt="React Icon" class="skill-icon"> React.js</li>
+                            <li><img src="./git.png" alt="Git Icon" class="skill-icon"> Git</li>
+                            <li><img src="./sql.png" alt="MySQL Icon" class="skill-icon"> SQL</li>
+                            <li><img src="./mongo.png" alt="MongoDB Icon" class="skill-icon"> MongoDB</li>
+                            <li><img src="./fire.png" alt="Firebase Icon" class="skill-icon"> Firebase</li>
+                            <li><img src="./figma.png" alt="Figma Icon" class="skill-icon"> Figma UI & UX Graphic Designer</li>
+                            <li><img src="./aws.png" alt="AWS Icon" class="skill-icon"> AWS</li>
+                            <li><img src="./node.png" alt="Node.js Icon" class="skill-icon"> Node.js</li>
+                            <li><img src="./express.jpg" alt="Express.js Icon" class="skill-icon"> Express.js</li>
+                            <li><img src="./linux.png" alt="Linux Icon" class="skill-icon"> Linux</li>
+                            <li><img src="./ml.png" alt="Machine Learning Icon" class="skill-icon"> Machine Learning</li>
+                            <li><img src="./research.png" alt="Research Icon" class="skill-icon"> Researcher</li>
+                        </ul>
+                    </div>
+        
+                    <div class="skills-category">
+                        <h3>Languages</h3>
+                        <ul class="skills-list">
+                            <li><img src="./english.png" alt="English Icon" class="skill-icon"> English</li>
+                            <li><img src="./telugu.png" alt="Telugu Icon" class="skill-icon"> Telugu</li>
+                            <li><img src="./hindi.png" alt="Hindi Icon" class="skill-icon"> Hindi</li>
+                        </ul>
+                    </div>
+        
+                    <div class="skills-category">
+                        <h3>Strengths</h3>
+                        <ul class="skills-list">
+                            <li><img src="./communication.png" alt="Communication Icon" class="skill-icon"> Good communication skills</li>
+                            <li><img src="./design.png" alt="Design Icon" class="skill-icon"> Designing pages for systems</li>
+                            <li><img src="./prompt.webp" alt="Prompt Pro Icon" class="skill-icon"> Prompt Pro</li>
+                            <li><img src="./managment.png" alt="Team Management Icon" class="skill-icon"> Team management</li>
+                            <li><img src="./analysis.png" alt="Analysis Icon" class="skill-icon"> Analysis of problems</li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </section>
+        <section id="contact">
+            <div id="contact_bg">
+                <h1 class="about-heading">Contact Me</h1>
+                <div class="contact-container">
+                    <div class="contact-left">
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">
+                                    <img src="./name.png" alt="User Icon" class="form-icon">
+                                    <input type="text" id="name" value="MOPURU VENKATA SRIKANTH REDDY" readonly onclick="window.location.href='https://www.linkedin.com/in/mopuru-venkata-srikanth-reddy/'">
+                                </label>
+                            </div>
+        
+                            <div class="form-group">
+                                <label for="phone">
+                                    <img src="./phone.png" alt="Phone Icon" class="form-icon">
+                                    <input type="text" id="phone" value="+91 9346812271" readonly onclick="window.location.href='tel:+91 9346812271'">
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">
+                                    <img src="./mail.png" alt="Email Icon" class="form-icon">
+                                    <input type="text" id="email" value="mvsr26032005@gmail.com" readonly onclick="window.location.href='mailto:mvsr26032005@gmail.com'">
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="github">
+                                    <img src="./git.png" alt="GitHub Icon" class="form-icon">
+                                    <input type="text" id="github" value="mycode100" readonly onclick="window.location.href='https://github.com/mycode100'">
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label for="linkedin">
+                                    <img src="./linked.avif" alt="LinkedIn Icon" class="form-icon">
+                                    <input type="text" id="linkedin" value="Mopuru Venkata Srikanth Reddy" readonly onclick="window.location.href='https://www.linkedin.com/in/mopuru-venkata-srikanth-reddy/'">
+                                </label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-right">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d676.1181033242068!2d80.57594799819243!3d16.54115735239819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35ef00591e6059%3A0x14d85058246cb249!2sSavera%20VS%20Redidency!5e0!3m2!1sen!2sin!4v1727200741033!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <p class="location" style="color: white;">
+                            <img src="./loc.png" alt="Location Icon" class="form-icon">
+                            2-310/Fc Savera Vs Residency, Ganganamma Temple Street, Gollapudi, Vijayawada, A P, India, Pincode: 521225
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Mopuru Venkata Srikanth Reddy. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="https://github.com/mycode100" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/mopuru-venkata-srikanth-reddy" target="_blank">LinkedIn</a></li>
+                <li><a href="mailto:mvsr26032005@gmail.com">Email</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
